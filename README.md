@@ -1,2 +1,2 @@
 # Trident
-The code will be available soon....
+The code will be available soon.
