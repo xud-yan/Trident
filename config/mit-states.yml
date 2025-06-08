@@ -1,0 +1,71 @@
+config_name: 'mit-states'
+
+DATASET:
+  root_dir: '{}' # Please replace {} with the root path of MIT-States
+  name: 'mit-states'
+  splitname: 'compositional-split-natural'
+  image_aspect_ratio: 'pad'
+  aux_name: 'aux_label'
+
+MODEL:
+  img_emb_dim: 1024
+  img_emb_drop: 0.3
+
+  wordembs: 'llava'
+  llava_embedding_path: '' # Please replace {} with the path of embedding file for MIT-States
+
+  wordemb_compose: 'linear'
+  wordemb_compose_dropout: 0.05
+
+  word_dim: 4096
+  emb_dim: 1024
+
+  classifier: 'cosine'
+  cosine_cls_temp: 0.05
+
+  use_dis_loss: True
+  w_loss_dis: 0.25 #paper 0.5
+
+  use_orthogonal_regularization_loss: True
+  w_loss_ortho: 0.1
+
+  device: 'cuda:0'
+
+  global_feature_num: 6
+  local_feature_num: 12
+
+  label_smoothing_alpha: 0.09
+
+  Vit:
+    mm_path: '{}/mm_projector.pth' #cross-modal connector of LLaVA (Please extract it from LLaVA v1.5 7b first)
+    vision_tower_path: '{}' # Please replace {} with the root path clip-vit-large-patch14-336
+    mm_vision_select_layer: -2
+    mm_select_feature: 'all'
+    device: 'cuda:0'
+
+TRAIN:
+  use_wandb: True
+  checkpoint_dir: '{}' # change it to your desired path
+  num_workers: 4
+  seed: 124
+
+  batch_size: 128
+  test_batch_size: 128
+
+  lr_word_embedding: 1.5e-6
+  lr: 2e-4
+  wd: 5e-5
+
+  eval_every_epoch: 1
+
+  start_epoch: 1
+  start_epoch_validate: 1
+  max_epoch: 50
+  final_max_epoch: 50
+
+  decay_strategy: 'milestone' 
+  decay_factor: 0.1
+  lr_decay_milestones: [30, 40]
+
+EVAL:
+  topk: 1
