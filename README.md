@@ -12,7 +12,7 @@ Note: The supplementary material is provided in the paper's [arXiv version](http
 
 
 
-## Overview
+## 📝 Overview
 
 **TL;DR**: We employ both LLM and MLLM to guide attribute-object disentanglement by generating auxiliary attributes and representing primitive words for CZSL, respectively.
 
@@ -20,7 +20,7 @@ Note: The supplementary material is provided in the paper's [arXiv version](http
 
 
 
-## Setup
+## ⚙️ Setup
 
 Our work is implemented in PyTorch framework. Create a conda environment `trident` using:
 
@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
 
 
-## Download
+## ⬇️ Download
 
 **Datasets**: In our work, we conduct experiments on three datasets: MIT-States, C-GQA, and VAW-CZSL. For VAW-CZSL, you can download this dataset from [this website](https://drive.google.com/drive/folders/1CalwDXkkGALxz0e-aCFg9xBmf7Pu4eXL?usp=sharing). For MIT-States and C-GQA, please using:
 
@@ -44,7 +44,7 @@ bash utils/download_data.sh
 
 **Pre-trained models**: ViT-Large-Patch14-336px (the backbone) can be downloaded [here](https://huggingface.co/openai/clip-vit-large-patch14-336). LLaVA-v1.5-7b can be found [here](https://huggingface.co/liuhaotian/llava-v1.5-7b).
 
-## Training
+## 🏋️ Training
 
 1. Before training Trident, please obtain the auxiliary attributes by GPT-3.5 through OpenAI official API, and get the last hidden states of LLaVA v1.5 **offline**， which can be found in utils folder.
 
@@ -56,7 +56,7 @@ bash utils/download_data.sh
 
    
 
-## Evaluation
+## 📊 Evaluation
 
 Evaluate Trident model using:
 
@@ -66,7 +66,7 @@ python test.py --cfg config/{DATASET_NAME}.yml --load TRIDENT_MODEL.pth
 
 
 
-## Citation
+## 📚 Citation
 
 If you find our work helpful, please cite our paper:
 
@@ -81,6 +81,10 @@ If you find our work helpful, please cite our paper:
 The citation of IJCAI version will be released soon!
 
 
-## Acknowledgement
+## 🙏 Acknowledgement
 
 Thanks for the publicly available code of [OADis](https://github.com/nirat1606/OADis) and [LLaVA](https://github.com/haotian-liu/LLaVA).
+
+## 📬 Contact
+
+If you have any questions or are interested in collaboration, please feel free to contact me at xud_yan@163.com/xud_yan@bjtu.edu.cn .
