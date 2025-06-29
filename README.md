@@ -2,9 +2,9 @@
 
 <!--要改的地方：arxiv version两处的链接，IJCAI version的链接-->
 
-* **Authors**: [Xudong Yan](https://github.com/xud-yan), [Songhe Feng](https://faculty.bjtu.edu.cn/8407/), Yang Zhang, Jian Yang, Yueguan Lin, Haojun Fei
-* **Affiliations**: Beijing Jiaotong University, Qifu Technology
-* **More details**: [[arXiv version]](https://arxiv.org/abs/2411.12584) | [[code]](https://github.com/xud-yan/Trident) | [[IJCAI version]]()
+* **🧑‍💻 Authors**: [Xudong Yan](https://github.com/xud-yan), [Songhe Feng](https://faculty.bjtu.edu.cn/8407/), Yang Zhang, Jian Yang, Yueguan Lin, Haojun Fei
+* **🏛️ Affiliations**: Beijing Jiaotong University, Qifu Technology
+* **🔍 More details**: [[arXiv version]](https://arxiv.org/abs/2411.12584) | [[code]](https://github.com/xud-yan/Trident) | [[IJCAI version]]()
 
 
 
