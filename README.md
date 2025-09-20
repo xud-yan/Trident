@@ -1,10 +1,8 @@
 # [IJCAI 2025] Leveraging MLLM Embeddings and Attribute Smoothing for Compositional Zero-Shot Learning  (Trident)
 
-<!--要改的地方：arxiv version两处的链接，IJCAI version的链接-->
-
-* **🧑‍💻 Authors**: [Xudong Yan](https://github.com/xud-yan), [Songhe Feng](https://faculty.bjtu.edu.cn/8407/), Yang Zhang, Jian Yang, Yueguan Lin, Haojun Fei
+* **🧑‍💻 Authors**: [Xudong Yan](https://xud-yan.github.io/), [Songhe Feng](https://faculty.bjtu.edu.cn/8407/), Yang Zhang, Jian Yang, Yueguan Lin, Haojun Fei
 * **🏛️ Affiliations**: Beijing Jiaotong University, Qifu Technology
-* **🔍 More details**: [[arXiv version]](https://arxiv.org/abs/2411.12584) | [[code]](https://github.com/xud-yan/Trident) | [[IJCAI version]]()
+* **🔍 More details**: [[arXiv version]](https://arxiv.org/abs/2411.12584) | [[IJCAI version]](https://www.ijcai.org/proceedings/2025/243) | [[code]](https://github.com/xud-yan/Trident) 
 
 
 
@@ -72,13 +70,24 @@ If you find our work helpful, please cite our paper:
 
 ```
 @inproceedings{Yan_2025_IJCAI,
+  title     = {Leveraging MLLM Embeddings and Attribute Smoothing for Compositional Zero-Shot Learning},
+  author    = {Yan, Xudong and Feng, Songhe and Zhang, Yang and Yang, Jian and Lin, Yueguan and Fei, Haojun},
+  booktitle = {Proceedings of the Thirty-Fourth International Joint Conference on
+               Artificial Intelligence, {IJCAI-25}},
+  pages     = {2179--2187},
+  year      = {2025},
+}
+```
+or
+```
+@inproceedings{Yan_2025_IJCAI,
    title={Leveraging MLLM Embeddings and Attribute Smoothing for Compositional Zero-Shot Learning},
    author={Yan, Xudong and Feng, Songhe and Zhang, Yang and Yang, Jian and Lin, Yueguan and Fei, Haojun},
    journal={arXiv preprint arXiv:2411.12584},
    year={2024}
 }
 ```
-The citation of IJCAI version will be released soon!
+
 
 
 ## 🙏 Acknowledgement
