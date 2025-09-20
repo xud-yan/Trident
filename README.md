@@ -96,4 +96,4 @@ Thanks for the publicly available code of [OADis](https://github.com/nirat1606/O
 
 ## 📬 Contact
 
-If you have any questions or are interested in collaboration, please feel free to contact me at xud_yan@163.com/xud_yan@bjtu.edu.cn .
+If you have any questions or are interested in collaboration, please feel free to contact me at xud_yan@163.com / xud_yan@bjtu.edu.cn .
