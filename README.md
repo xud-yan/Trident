@@ -72,8 +72,7 @@ If you find our work helpful, please cite our paper:
 @inproceedings{Yan_2025_IJCAI,
   title     = {Leveraging MLLM Embeddings and Attribute Smoothing for Compositional Zero-Shot Learning},
   author    = {Yan, Xudong and Feng, Songhe and Zhang, Yang and Yang, Jian and Lin, Yueguan and Fei, Haojun},
-  booktitle = {Proceedings of the Thirty-Fourth International Joint Conference on
-               Artificial Intelligence, {IJCAI-25}},
+  booktitle = {Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence, {IJCAI-25}},
   pages     = {2179--2187},
   year      = {2025},
 }
