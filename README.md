@@ -66,7 +66,7 @@ python test.py --cfg config/{DATASET_NAME}.yml --load TRIDENT_MODEL.pth
 
 ## 📚 Citation
 
-If you find our work helpful, please cite our paper:
+If you find our work helpful, please star the repository and cite our paper:
 
 ```
 @inproceedings{Yan_2025_IJCAI,
